@@ -1,0 +1,58 @@
+/* telas ate 425px*/
+
+@media(max-width:425px){
+    .topo {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;     
+        
+    }
+    .topo .link {
+        width: 100%;
+        border-top: 2px solid #036F7A;
+        justify-content: space-around;
+        
+    }
+    .topo .link a{
+        font-size: 10px;    
+        
+    }
+    .especialidades{
+        width: 100%
+    }
+   .text-especialidades{
+        text-align: center;
+   }
+    .container-especialidades img{
+        display: none;
+    }
+
+
+}
+@media(max-width:768px){
+    .especialidades{
+        width: 100%
+    }
+   .text-especialidades{
+        text-align: center;
+   }
+    .container-especialidades img{
+        display: none;
+    }
+   
+   
+}
+@media(min-width:769px){
+    nav{
+        width: 100%;
+    }
+    .topo{
+        width: 100%;
+    }
+    .especialidades{
+        width: 100%
+    }
+   .text-especialidades{
+        text-align: center;
+   }
+}

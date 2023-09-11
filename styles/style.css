@@ -1,0 +1,233 @@
+* {
+
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+
+nav {
+    background-color: #07DDF3;
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+}
+
+.topo {
+    width: 1024px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-container img {
+
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+
+
+
+    padding: 0;
+    margin: 0;
+}
+
+.link a {
+    padding: 0px;
+    margin: 0px 10px 10px 10px;
+
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.link a:hover {
+    color: #036F7A;
+
+}
+
+section {
+    position: relative;
+    top: 0;
+    right: 0;
+    color: #0000008c;
+
+
+}
+
+.container {
+    background-image: url("../images/recepcao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.text-container {
+    width: 1024px;
+    position: absolute;
+    left: 0;
+    top: 20%;
+
+    margin: 0px;
+    padding: 0;
+
+    color: #fff;
+    font-size: 25px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1024px;
+   
+    
+
+}
+
+.sobre {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1024px;
+
+    text-align: center;
+
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    margin: 0px 0px;
+    padding: 0px;
+
+
+}
+
+.container2 img {
+    display: flex;
+    height: 250px;
+}
+
+.list h3 {
+    padding: 10px 0px;
+    width: 100%
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
+    padding: 0px;
+    margin: 5px 10px 10px 0px;
+
+
+}
+
+li {
+    margin: 5px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    width: 100% 
+
+}
+.images figure{
+    padding: 0;
+    margin: 0;
+}
+
+.images figure img {    
+    width: 250px; 
+    padding: 0;
+    margin:15px;  
+}
+
+.images img {
+    box-shadow: 0px 0px 10px 10px #0000008c;
+}
+
+.images figcaption {
+
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.horarios {
+    width: 100%;
+    text-align: center;
+}
+
+.horarios a {
+    background-color: #07DDF3;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px;
+
+    text-decoration: none;
+}
+
+.content2 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.content2 span {
+    font-weight: bold;
+}
+
+.contato {
+    width: 100%;
+    background-color: #036F7A;
+    color: #fff;
+
+    text-align: center;
+}
+
+
+

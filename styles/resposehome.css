@@ -1,0 +1,144 @@
+/*telas ate 425px*/
+
+@media(max-width:425px) {
+    .topo {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .topo .link {
+        width: 100%;
+        border-top: 2px solid #036F7A;
+        justify-content: space-around;
+    }
+
+    .container {
+        height: 200px;
+    }
+
+    .text-container {
+        font-size: 15px;
+
+    }
+    .about-container{
+        width: 100%;
+       
+    }
+
+    .sobre {
+        width: 100%;
+   }
+
+    .sobre h1 {
+        text-align: center;
+        width: 35%;
+        margin: 20px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .container2 {
+        justify-content: flex-start;
+    }
+
+    .container2 img {
+        display: none;
+
+    }
+
+    .container2 h3 {
+        width: 100%;
+    }
+
+    .content2 {
+        width: 100%;
+    }
+
+    .images {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/*telas ate 768px*/
+
+@media(max-width:768px) {
+   
+    .topo {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+
+    }
+
+    .topo .link a {
+        font-size: 10px;
+
+    }
+
+    .container {
+        height: 300px;  
+    }
+    .text-container {
+        font-size: 15px;
+    }
+    .about-container{
+        width: 100%;
+             
+    }
+    .sobre {
+        width: 100%;
+       
+    }
+   
+    .sobre h1 {
+        text-align: center;
+        width:100%;
+        margin: 20px;
+        padding: 0px 0px 0px 0px;
+    }
+    .container2 {
+        width: 100%;
+        margin:  0;
+        padding: 0; 
+        justify-content: center;      
+    }
+    .container2 img {
+        display: none;
+
+    }  
+    .images {
+            
+            justify-content: center;
+
+        }
+
+        .images figure img {
+            width: 50%;
+            flex-grow: 0;
+            flex-wrap: wrap;
+
+        }
+    }
+
+    /*telas ate 1024px*/
+
+    @media(max-width:1024px) {      
+
+        .container {
+            height: 400px;
+        }
+    }
+    /*demais telas*/
+
+    @media(min-width:1024px) {            
+
+        .container {
+            height: 500px;
+
+        }
+    }
